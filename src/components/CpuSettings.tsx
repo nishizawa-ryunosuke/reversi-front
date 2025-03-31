@@ -39,7 +39,7 @@ const CpuSettings: React.FC<CpuSettingsProps> = ({
       </div>
     </div>
     <div>
-      <h3 className="font-semibold mb-1">先攻:</h3>
+      <h3 className="font-semibold mb-1">色:</h3>
       <div className="flex space-x-2">
         <button
           className={`px-3 py-1 rounded-md ${
@@ -59,7 +59,7 @@ const CpuSettings: React.FC<CpuSettingsProps> = ({
           }`}
           onClick={() => onCpuStartsChange(true)}
         >
-          CPU(黒)
+          CPU(白)
         </button>
       </div>
     </div>
